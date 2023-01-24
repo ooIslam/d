@@ -234,7 +234,7 @@ footer {
 section#signin,
 section#signup {
   max-width: 400px;
-  margin: 0 auto;
+  margin: 0 ;
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 10px;
@@ -264,7 +264,7 @@ section#signup {
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 10px;
-  margin: 0 auto; /* center the sections horizontally */
+  margin-left: 100px ; /* center the sections horizontally */
   text-align: center; /* center the elements inside the sections */
 }
 section::after {
@@ -303,4 +303,8 @@ nav {
     100% {
         background-position: 0% 50%;
     }
+}
+.copu {
+    display: inline-block;
+    border: #003366;
 }
